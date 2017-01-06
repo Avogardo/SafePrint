@@ -21,10 +21,10 @@ function addText(text) {
 }
 
 function addElement(text, type) {
-    var element = document.createElement(type);
-    var part = document.createTextNode(text);
-    element.appendChild(part);
-    document.getElementById("main").appendChild(element);
+	var element = document.createElement(type);
+	var part = document.createTextNode(text);
+	element.appendChild(part);
+	document.getElementById("main").appendChild(element);
 }
 
 function test(text) {
